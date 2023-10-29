@@ -1,0 +1,24 @@
+{
+  "name": "docker-reverse-proxy",
+  "version": "1.0.0",
+  "description": "A Node.js application for routing incoming HTTP requests to Docker containers based on the URL, with support for custom domains and ports.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "subdomain", "proxy", "docker", "reverse", "routing", "reverse-proxy", "codespaces", "devpod", "local proxy"
+  ],
+  "author": "Sulaiman Sulaiman <s.su14iman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dockerode": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "redwire": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
